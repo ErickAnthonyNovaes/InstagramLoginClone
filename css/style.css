@@ -1,0 +1,208 @@
+.libre-franklin-libre-franklin {
+    font-family: "Libre Franklin", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: normal;
+    font-style: normal;
+}
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background-color: #f3f3f3;
+    display: flex;
+    font-family: "Libre Franklin";
+}
+
+.cell-img {
+    width: 35pc;
+    height: 36pc;
+    margin: 0 auto;
+    margin-top: 5pc;
+    display: block;
+}
+
+.cell-img img {
+    width: 35pc;
+}
+
+.login-container {
+    border: 1px solid #ececec;
+    width: 40pc;
+    height: 21pc;
+    margin: 0 auto;
+    margin-top: 5pc;
+    margin-left: -70px;
+    background-color: #fff;
+    display: flex;
+    flex-direction: column;
+}
+
+.logo {
+    width: 12.5pc;
+    height: 3.5pc;
+    margin: 0 auto;
+    margin-top: 20px;
+}
+
+.profile-img {
+    width: 6pc;
+    height: 6pc;
+    margin: 0 auto;
+    margin-top: 30px;
+}
+
+.profile-img img {
+    border-radius: 10pc;
+    width: 6pc;
+}
+
+.button {
+    height: 42px;
+    width: 16pc;
+    background-color: #0295f6;
+    color: #fff;
+    border: none;
+    font-size: 18px;
+    border-radius: 6px;
+    cursor: pointer;
+}
+
+.button-container {
+    width: 16pc;
+    height: 42px;
+    margin: 0 auto;
+    margin-top: 30px;
+}
+
+.button-container p {
+    color: #0099ff;
+    text-align: center;
+    margin-top: 25px;
+    cursor: pointer;
+    font-weight: 400;
+}
+
+.other-account {
+    border: 1px solid #ececec;
+    width: 40pc;
+    height: 5pc;
+    margin: 0 auto;
+    margin-top: 23pc;
+    background-color: #fff;
+    display: flex;
+    position: absolute;
+}
+
+.text {
+    width: 220px;
+    margin: 0 auto;
+    text-align: center;
+    width: 220px;
+    height: 40px;
+    margin-top: 20px;
+    color: #9999a1;
+}
+
+.text a {
+    text-decoration: none;
+    color: #0099ff;
+}
+
+.downloads {
+    width: 40pc;
+    height: 8pc;
+    margin: 0 auto;
+    margin-top: 30pc;
+    background-color: transparent;
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    text-align: center;
+    font-weight: 500;
+    font-size: 18px;
+}
+
+.downloads-buttons {
+    display: flex;
+    width: 40pc;
+    height: 4pc;
+    margin-top: 20px;
+}
+
+.downloads-buttons img {
+    width: 15pc;
+    height: 4pc;
+    margin-left: 55px;
+}
+
+@media (max-width: 912px) {  
+    .cell-img {
+        display: none;
+    }
+
+    .login-container {
+        width: 16pc;
+        height: 17pc;
+        margin: 0 auto;
+        margin-left: 21px;
+        margin-top: 5pc;
+    }
+
+    .button {
+        height: 32px;
+        width: 11pc;
+        font-size: 13px;
+        border-radius: 6px;
+        margin-left: 41px;
+    }
+
+    .profile-img {
+        width: 4.5pc;
+        height: 4.5pc;
+        margin: 0 auto;
+        margin-top: 20px;
+    }
+
+    .profile-img img {
+        width: 4.5pc;
+        height: 4.5pc;
+    }
+    
+    .button-container p {
+        margin-top: 15px;
+        font-size: 13px;
+    }
+
+    .other-account {
+        width: 16pc;
+        height: 5pc;
+        margin-top: 19pc;
+    }
+
+    .text {
+        margin-top: 22px;
+        font-size: 13px;
+    }
+
+    .downloads {
+        width: 16pc;
+        height: 8pc;
+        font-size: 13px;
+    }
+
+    .downloads-buttons {
+        display: flex;
+        width: 16pc;
+        height: 4pc;
+        margin-top: 20px;
+    }
+    
+    .downloads-buttons img {
+        width: 10pc;
+        height: 2.1pc;
+        margin-left: 5px;
+    }
+}
